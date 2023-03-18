@@ -18,7 +18,7 @@ Text = "Done!"; -- what the text says (ofc)
 Duration = 5; -- how long the notification should in secounds
 })
 elseif HumanoidRootPart.Parent.safe.Value == 0 then
-    break
+    _G.A = nil
                 end
             end
         end

@@ -17,3 +17,11 @@ while wait() do
     game:GetService("Workspace").Areas.Area1.Exit.Goal.Size = Vector3.new(9e9,9e9,9e9)
     end)
 end
+
+
+local args = {
+    [1] = 1,
+    [2] = "Lightning"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("StrongMan_UpgradeStrength"):InvokeServer(unpack(args))
